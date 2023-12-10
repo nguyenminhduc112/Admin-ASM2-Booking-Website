@@ -1,0 +1,99 @@
+.title {
+    color: grey;
+    text-transform: capitalize;
+}
+
+.boxAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.btnBack,
+.btnSubmit {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSubmit {
+    padding: 15px 40px;
+}
+
+.btnBack {
+    background-color: #fff;
+    color: #41658A;
+    border: 1px solid #41658A;
+}
+
+.btnSubmit {
+    background-color: #fff;
+    color: #414073;
+    border: 1px solid #414073;
+}
+
+.btnSubmit:hover {
+    background-color: #414073;
+    color: #fff;
+}
+
+.btnBack:hover {
+    background-color: #41658A;
+    color: #fff;
+}
+
+/* Form */
+.form {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.groupForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.inputGroup {
+    margin-bottom: 30px;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+
+.input,
+.textarea,
+.select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid #41658A;
+    border-radius: 5px;
+}
+
+.select option {
+    padding: 10px;
+}
+
+.textarea,
+.select[multiple] {
+    padding-top: 10px;
+    padding-right: 15px;
+    height: auto;
+}
+
+.input:focus,
+.textarea:focus {
+    outline: 1px solid #414073;
+}
+
+.error {
+    margin-top: 5px;
+    color: #E63946;
+}

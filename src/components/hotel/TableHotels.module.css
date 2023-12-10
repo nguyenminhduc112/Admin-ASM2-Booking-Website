@@ -1,0 +1,53 @@
+.title {
+    color: grey;
+    text-transform: capitalize;
+}
+
+.boxAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.btnAddNew,
+.btnDelete,
+.btnEdit {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnAddNew {
+    background-color: #fff;
+    color: #6A994E;
+    border: 1px solid #6A994E;
+}
+
+.btnAddNew:hover {
+    background-color: #6A994E;
+    color: #fff;
+}
+
+.btnDelete {
+    background-color: #fff;
+    color: #BC4749;
+    border: 1px solid #BC4749;
+}
+
+.btnDelete:hover {
+    background-color: #BC4749;
+    color: #fff;
+}
+
+.btnEdit {
+    margin-left: 10px;
+    background-color: #fff;
+    color: #FCA311;
+    border: 1px solid #FCA311;
+}
+
+.btnEdit:hover {
+    background-color: #FCA311;
+    color: #fff;
+}
