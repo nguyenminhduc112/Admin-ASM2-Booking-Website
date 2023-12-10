@@ -68,11 +68,7 @@ const FormLogin = () => {
                     </div>
                     <div className={styles.inputGroup}>
                         <input type="password" name="password" id="password" placeholder='PASSWORD' {...register('password', {
-                            required: "Password is empty",
-                            pattern: {
-                                value: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,16}$/,
-                                message: "Password must contain numbers and uppercase letters (characters must be 8 to 16)"
-                            }
+                            required: "Password is empty"
                         })} className={styles.input} />
                         {errors.password && <p className={styles.error}>{errors.password.message}</p>}
                     </div>
