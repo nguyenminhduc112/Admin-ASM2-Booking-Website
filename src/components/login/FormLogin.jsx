@@ -17,7 +17,7 @@ const FormLogin = () => {
     } = useForm()
     // Xử lý đăng nhập
     const FetchLogin = async (data) => {
-        const response = await fetch('http://localhost:5000/auth/signinAdmin', {
+        const response = await fetch(`${process.env.REACT_APP_URL_DEFAULT_SERVER}/auth/signinAdmin`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
